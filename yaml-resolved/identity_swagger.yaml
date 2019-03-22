@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  description: This is a simple API. Version 1
+  description: This is a simple API.
   version: v1
-  title: Simple Inventory API
+  title: Simple Identity API
   contact:
     email: vathakur@deloitte.com.au
   license:
