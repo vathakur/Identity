@@ -51,15 +51,4 @@ paths:
       responses:
         200:
           description: OK
-    post:
-      description: this is a sample post response
-      parameters:
-      - name: id
-        in: path
-        description: ""
-        required: true
-        type: string
-      responses:
-        201:
-          description: OK
 definitions: {}
