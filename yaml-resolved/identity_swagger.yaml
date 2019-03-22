@@ -39,6 +39,8 @@ paths:
       responses:
         201:
           description: OK
+        400:
+          description: Bad_Request
   /identities/{id}:
     get:
       description: Sample
