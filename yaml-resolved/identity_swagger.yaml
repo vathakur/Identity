@@ -24,7 +24,7 @@ paths:
       description: |
         this is a sample get operation
       produces:
-      - string
+      - application/json
       parameters: []
       responses:
         200:
