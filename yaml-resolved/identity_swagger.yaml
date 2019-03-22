@@ -57,7 +57,16 @@ paths:
       responses:
         200:
           description: OK
+          schema:
+            type: object
+            properties:
+              id:
+                type: string
 definitions:
+  inline_response_200_1:
+    properties:
+      id:
+        type: string
   inline_response_200:
     properties:
       id:
