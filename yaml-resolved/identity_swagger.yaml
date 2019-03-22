@@ -30,8 +30,12 @@ paths:
         200:
           description: this is a sample response
           schema:
-            type: string
-            example: This is a sample response
+            type: object
+            properties:
+              id:
+                type: string
+              name:
+                type: string
     post:
       description: |
         this is a sample post operation
@@ -53,4 +57,10 @@ paths:
       responses:
         200:
           description: OK
-definitions: {}
+definitions:
+  inline_response_200:
+    properties:
+      id:
+        type: string
+      name:
+        type: string
